@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App'; // looking at the App.js file and getting the default export hence no {}
 import * as serviceWorker from './serviceWorker';
+
+// added
+import 'semantic-ui-css/semantic.min.css';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
